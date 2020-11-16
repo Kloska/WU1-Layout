@@ -1,20 +1,17 @@
 body, html {
-    height: 100%;
-  }
+  height: 100%;
+}
 
 body {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
- }
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
 
- nav {
-    display: flex;
-    background-color: rgb(255, 202, 251);
-    padding: .5rem;
-    font-size: 1.4rem;
-  }
-  
+main {
+  margin: 0 auto;
+  width: 78%;
+}
 img {
   float: right;
   margin-left: 1rem;
@@ -23,14 +20,50 @@ img {
 
 footer {
   margin-top: auto;
-  background-color: rgb(202, 224, 231);
+  background-color: lightblue;
   padding: .5rem;
+  text-align: center;
+  
+}
+
+nav {
+  display: flex;
+  background-color: rgb(255, 209, 247);
+  padding: .5rem;
+  font-size: 1.4rem;
 }
 
 ul {
-    display: flex;
+  display: flex;
 }
 
 li {
-    margin: 0 1rem;
+  margin: 1rem;
+}
+
+.knapp {
+  background-color: #660044;
+  border: none;
+  color: rgb(204, 143, 255);
+  padding: 50px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 100%;
+}
+
+.fin {
+  border: none;
+  display: inline-block;
+  border-radius: 2%;
+}
+
+.fot {
+background-color: beige;
+color: peru;
+border: none;
+padding: 15px 25px;
+border-radius: 40%;
+
 }
